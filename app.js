@@ -22,7 +22,7 @@ var app = express();
 
 // Setup mongoose connection
 const mongoose = require('mongoose');
-const uri = 'mongodb+srv://Admin:password1234@cluster0.oo6m7.mongodb.net/PROJECT 0?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://Admin:password1234@cluster0.oo6m7.mongodb.net/Cluster0?retryWrites=true&w=majority';
 mongoose
   .connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .catch((err) => {
